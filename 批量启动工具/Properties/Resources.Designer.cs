@@ -59,15 +59,5 @@ namespace 批量启动工具.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
-        /// </summary>
-        internal static System.Drawing.Bitmap _10e3166f_70dd_4bad_9b02_acdcec122f91 {
-            get {
-                object obj = ResourceManager.GetObject("10e3166f-70dd-4bad-9b02-acdcec122f91", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
     }
 }
