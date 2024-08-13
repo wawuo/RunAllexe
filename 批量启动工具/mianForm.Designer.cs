@@ -106,7 +106,7 @@
             // 
             // dataGridView1
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.Silver;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.BlanchedAlmond;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.GridColor = System.Drawing.Color.LightGray;
             this.dataGridView1.Location = new System.Drawing.Point(-1, 48);
@@ -118,10 +118,11 @@
             // 
             // txtLog
             // 
-            this.txtLog.Location = new System.Drawing.Point(-1, 304);
+            this.txtLog.BackColor = System.Drawing.SystemColors.Info;
+            this.txtLog.Location = new System.Drawing.Point(-1, 263);
             this.txtLog.Multiline = true;
             this.txtLog.Name = "txtLog";
-            this.txtLog.Size = new System.Drawing.Size(634, 53);
+            this.txtLog.Size = new System.Drawing.Size(634, 98);
             this.txtLog.TabIndex = 7;
             this.txtLog.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -144,6 +145,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.BackgroundImage = global::批量启动工具.Properties.Resources._76d8525d_e202_4cc6_97e2_18aecc3c1b4f;
             this.ClientSize = new System.Drawing.Size(712, 362);
             this.Controls.Add(this.StopButton);
             this.Controls.Add(this.txtLog);

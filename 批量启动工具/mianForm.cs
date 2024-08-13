@@ -186,7 +186,8 @@ namespace 批量启动工具
             RunButton.Enabled = false;  // 禁用按钮
             StopButton.Enabled = true;  // 开启stop按钮
             await runApp.RunAsync();
-            
+            StopButton.Enabled = false;
+
 
 
             //runApp.Run();
